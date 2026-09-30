@@ -1,0 +1,7 @@
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+*.log
+public/images/brand/dallas-logo-transparent.png

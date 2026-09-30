@@ -1,0 +1,1 @@
+import { consultationMessage, whatsappUrl } from "@/config/site"; export function WhatsAppButton(){return <a className="whatsapp-float" href={whatsappUrl(consultationMessage)} target="_blank" rel="noreferrer" aria-label="Konsultasi melalui WhatsApp">WA</a>}
