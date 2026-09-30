@@ -9,6 +9,10 @@ export const SITE_CONFIG = {
   social: { instagram: "officialdallastourtravel", facebook: "DALLAS TOUR & TRAVEL", tiktok: "dallastourtravel" },
 };
 
+export function assetPath(path: string) {
+  return `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${path}`;
+}
+
 export function whatsappUrl(message: string) {
   return `https://wa.me/${SITE_CONFIG.whatsapp}?text=${encodeURIComponent(message)}`;
 }
